@@ -1,5 +1,4 @@
-// import avatar from '../../quill-pen.jpg'
-import avatar from '../quill-pen.jpg'
+import avatar from '../../quill-pen.jpg'
 
 const Profile = () => {
 
@@ -87,6 +86,8 @@ const Profile = () => {
       
             <div className=' relative flex flex-col gap-1 pb-10 '>
                 <label className=' font-semibold pl-2 text-amber-400 ' >Deafult Language</label>
+                {/* <input className=' min-w-[200px] w-full h-[40px] bg-transparent  rounded-md text-[17px]  outline-none pl-2 ' /> */}
+      
                 <select className=' min-w-[200px] w-full h-[40px] bg-transparent  rounded-md text-[17px]  outline-none px-2 '>
                     <option></option>
                     <option>Af-Soomaali</option>
@@ -118,17 +119,9 @@ const Profile = () => {
                 <label className=' font-semibold pl-2 text-amber-400 ' >Zip Code</label>
                 <input className=' min-w-[200px] w-full h-[40px] bg-transparent  rounded-md text-[17px]  outline-none pl-2 ' />
             </div>
-            <div className=' relative flex flex-col gap-1 pb-14 '>
+            <div className=' relative flex flex-col gap-1 '>
                 <label className=' font-semibold pl-2 text-amber-400 ' >Country</label>
-                {/* <input className=' min-w-[200px] w-full h-[40px] bg-transparent  rounded-md text-[17px]  outline-none pl-2 ' /> */}
-                <select className=' min-w-[200px] w-full h-[40px] bg-transparent  rounded-md text-[17px]  outline-none px-2 '>
-                    <option></option>
-                    <option>Afghanistan</option>
-                    <option>Algeria</option>
-                    <option>Bulgeria</option>
-                    <option>Ethiopia</option>
-                    <option>Somalia</option>
-                </select>
+                <input className=' min-w-[200px] w-full h-[40px] bg-transparent  rounded-md text-[17px]  outline-none pl-2 ' />
             </div>
         </div>
 

@@ -12,6 +12,24 @@ body {
 
 #moon.active {display: block;}
 
+.link.active {
+  color: rgb(2, 190, 190);
+}
+
+.side-bar { transition: all 0.3s; }
+
+.side-bar.hide { left: -300px;}
+
+.theme-wrapper { transition: all 0.3s; cursor: pointer;}
+
+.theme-wrapper.wide { width: 100%;}
+
+.main-section { transition: all 0.3s;}
+
+.main-section.wide { width: 100%;}
+
+body.light .side-bar { background-color: white; }
+
 body.light { background-color: #f5f5f5; color: #1d1d1d;}
 
 body.light .top-icon {color: #1d1d1d;}
